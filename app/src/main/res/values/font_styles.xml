@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="wrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="txt_primary" parent="@style/wrapContent">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:textColor">@color/txt_primary</item>
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
+    </style>
+
+    <style name="txt_white" parent="@style/wrapContent">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
+    </style>
+
+    <style name="txt_primary_medium" parent="@style/txt_primary">
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif-medium</item>
+    </style>
+
+    <style name="txt_white_medium" parent="@style/txt_white">
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif-medium</item>
+    </style>
+
+    <style name="txt_primary_10" parent="txt_primary">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_primary_12" parent="txt_primary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_primary_12_medium" parent="txt_primary_medium">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_primary_14" parent="txt_primary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_primary_14_medium" parent="txt_primary_medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_primary_16" parent="txt_primary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_primary_16_medium" parent="txt_primary_medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_primary_18" parent="txt_primary">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_primary_18_medium" parent="txt_primary_medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_primary_20" parent="txt_primary">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_primary_20_medium" parent="txt_primary_medium">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Secondary -->
+    <style name="txt_secondary" parent="@style/wrapContent">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:textColor">@color/txt_secondary</item>
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
+    </style>
+
+    <style name="txt_secondary_medium" parent="@style/txt_secondary">
+        <item name="android:fontFamily" tools:targetApi="16">sans-serif-medium</item>
+    </style>
+
+    <style name="txt_secondary_10" parent="txt_secondary">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_secondary_12" parent="txt_secondary">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_secondary_8" parent="txt_secondary">
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="txt_secondary_14" parent="txt_secondary">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_secondary_16" parent="txt_secondary">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_secondary_24" parent="txt_secondary">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="txt_secondary_12_medium" parent="txt_secondary_medium">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_secondary_14_medium" parent="txt_secondary_medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_secondary_16_medium" parent="txt_secondary_medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_secondary_20_medium" parent="txt_secondary_medium">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <!--white-->
+
+    <style name="txt_white_10" parent="txt_white">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="txt_white_12" parent="txt_white">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_white_12_medium" parent="txt_white_medium">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="txt_white_14" parent="txt_white">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_white_14_medium" parent="txt_white_medium">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt_white_16" parent="txt_white">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_white_16_medium" parent="txt_white_medium">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt_white_18" parent="txt_white">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_white_18_medium" parent="txt_white_medium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt_white_20" parent="txt_white">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt_white_20_medium" parent="txt_white_medium">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>

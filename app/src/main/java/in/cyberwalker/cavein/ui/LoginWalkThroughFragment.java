@@ -7,7 +7,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import in.cyberwalker.cavein.R;
@@ -41,6 +40,9 @@ public class LoginWalkThroughFragment extends Fragment {
                              Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.fragment_login_1, container, false);
+
+        ((TextView) rootView.findViewById(R.id.txv_title)).setText(headerText);
+        ((TextView) rootView.findViewById(R.id.txv_sub_title)).setText(contentText);
 
         return rootView;
     }

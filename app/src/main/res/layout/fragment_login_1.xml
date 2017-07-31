@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="48dp">
+    android:layout_marginTop="48dp"
+    android:gravity="center"
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imv_login_bg"
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txv_title"
+        style="@style/txt_primary_20_medium"
+        tools:text="Heading 1" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txv_sub_title"
+        style="@style/txt_primary_14"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_menu_camera" />
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_16"
+        tools:text="Heading 1" />
 
-</RelativeLayout>
+</LinearLayout>
